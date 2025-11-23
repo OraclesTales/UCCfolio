@@ -35,12 +35,27 @@ body{
     background-image: url('images/gothiccity.jpg');
 }
 .menu{
+    float: center;
     background-color: rgb(41, 37, 52);
 }
-.main-content{
+.row{
+    float: center;
     opacity: 90%;
     background-color: rgb(191, 181, 175);
     padding:20px;
+    width: 100%;
+}
+.col{
+    float: left;
+    width: 40%;
+    height:max-content;
+    padding: 10px;
+}
+.col2{
+    float: left;
+    width: 60%;
+    height:max-content;
+    padding: 10px;
 }
 text{
     padding: 20px;
