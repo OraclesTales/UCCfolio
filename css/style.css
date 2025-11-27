@@ -13,6 +13,8 @@
 @font-face{
     font-family: "batman";
     src: url('fonts/batman/BATMAN.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 nav a {
@@ -24,41 +26,52 @@ nav a {
     text-decoration: none;
 }
 a:hover {
-    color: rgb(60, 78, 136);
+    color: rgb(93, 106, 150);
     text-decoration: underline;
 }
 .active {
     color:rgb(134 51 51);
 }
 body{
-    opacity:90%;
     background-image: url('images/gothiccity.jpg');
+    background-size: cover;
 }
-.menu{
-    float: center;
-    background-color: rgb(41, 37, 52);
+img{
+    
+}
+.heading{
+    background-color: rgb(38, 37, 52);
+    padding: 20px;
+    margin: 0;
 }
 .row{
-    float: center;
     opacity: 90%;
     background-color: rgb(191, 181, 175);
-    padding:20px;
-    width: 100%;
+    padding: 20px;
+    margin: 0;
 }
 .col{
-    float: left;
+    float: center;
     width: 40%;
     height:max-content;
-    padding: 10px;
+    padding: 5px;
 }
-.col2{
-    float: left;
-    width: 60%;
-    height:max-content;
+.card{
+    background-color: rgb(219, 218, 221);
     padding: 10px;
+    margin: 10px;
+    width:100%;
 }
 text{
     padding: 20px;
+}
+
+/* Center the profile image inside the left column */
+#left img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 h2 {
     color:rgb(134 51 51);
@@ -66,7 +79,7 @@ h2 {
     font-size: 50px;
 }
 h3{
-    font-family: "butler";
+    font-family: "gotham";
     font-size: 50px;
     color:rgb(134 51 51);
 }
