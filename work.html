@@ -22,12 +22,20 @@
     <!-- BOOTSTRAP ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <!-- PLUGIN 2: FEATHERLIGHT -->
+    <link href="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.css" type="text/css"
+        rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/featherlight@1.7.14/release/featherlight.min.js" type="text/javascript"
+        charset="utf-8"></script>
+
     <link href="css/style.css" rel="stylesheet">
+
+    
 
 </head>
 
 <body>
-
+    
     <div class="container">
         <div class="heading">
 
@@ -47,65 +55,13 @@
             <!-- add text like "welcome to the works page" like a basic explanation-->
             <!-- if possible, add the 3 subpages for each medium-->
 
-            <div class="col-sm">
-                <!--card-->
-                <div class="card" style="width:100%;">
-                    <img src="https://picsum.photos/id/237/400/200" class="card-img-top" alt="black dog">
-
-                    <!--card text-->
-                    <div class="card-body">
-                        <p>Medium (3D, paint, etc.)</p>
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">A project I did for...</p>
-
-                        <a href="#" class="btn btn-primary">
-                            <i class="bi bi-eye"></i>
-                            View
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-
-                <!--card-->
-                <div class="card" style="width:100%;">
-                    <img src="https://picsum.photos/id/345/400/200" class="card-img-top" alt="blurry white">
-
-                    <!--card text-->
-                    <div class="card-body">
-                        <p>Medium (3D, paint, etc.)</p>
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">A project I did for...</p>
-                        <a href="#" class="btn btn-primary">
-                            <i class="bi bi-eye"></i>
-                            View
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-
-                <!--card-->
-                <div class="card" style="width:100%;">
-                    <img src="https://picsum.photos/id/876/400/200" class="card-img-top" alt="forest">
-
-                    <!--card text-->
-                    <div class="card-body">
-                        <p>Medium (3D, paint, etc.)</p>
-                        <h5 class="card-title">Project Name</h5>
-                        <p class="card-text">A project I did for...</p>
-                        <a href="#" class="btn btn-primary">
-                            <i class="bi bi-eye"></i>
-                            View
-                        </a>
-                    </div>
-                </div>
-            </div>
+            <div id="cards-container" class="row"></div>
         </div>
+
         <!--bottom nav-->
-        <div id="socials" class="row">
-            <p class="text-center">socials...</p>
-        </div>
+        <nav id="socials" class="row text-center">
+            <i id="nav" href="https://www.instagram.com/aster._oid_/" class="bi bi-instagram"></i>
+    </nav>
 
 
 </body>
