@@ -117,7 +117,6 @@ body {
     background-color: rgb(93, 106, 150);
     color: rgb(219, 218, 221);
 }
-<<<<<<< HEAD
 input{
     font-family: "butler";
     font-size: 20px;
@@ -128,9 +127,6 @@ input{
     border-radius: 5px;
     background-color: rgb(244, 240, 255);
 }
-=======
->>>>>>> d406cab3298cea7c2c2fac83e30d07a77d4d519f
-
 text {
     padding: 20px;
 }
