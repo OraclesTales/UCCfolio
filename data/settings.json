@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Bedroom",
+    "medium": "3D modelling (Maya)",
+    "category": "3D Models",
+    "description": "This was the final project for 3D Visualization 1, a course in my Interaction Design program. It's the second 3D model I've created ever, so it's not the highest quality. However, I put a lot of hard work into the textures and some of the smaller objects. I learned and got practice with this model.",
+    "year": "Sem 2, 2025",
+    "image": "css/images/bedroom.jpg"
+  },
+  {
+    "name": "Board Game",
+    "medium": "3D modelling (Maya)",
+    "category": "3D Models",
+    "description": "This was the first project for 3D Visualization in my Interaction Design program at GBC. We were learning the basics, so shapes are much more simple to create. This was good practice as someone who had never done 3D Modeling before.",
+    "year": "Sem 2, 2025",
+    "image": "css/images/boardgame.jpg"
+  },
+  {
+    "name": "Cozy Office",
+    "medium": "3D modelling (Maya)",
+    "category": "3D Models",
+    "description": "This was the final project for 3D Visualization 2, a course in my Interaction Design program at GBC. We were asked to create an environment we wanted to model, so I went for an office I hope to have one day in my own home. I'm very proud of how the office chair came out, and had much more fun building this model.",
+    "year": "Sem 3, 2025",
+    "image": "css/images/cozyoffice.jpg"
+  },
+  {
+    "name": "Illustrator Recreation",
+    "medium": "Adobe Illustrator",
+    "category": "Digital Art",
+    "description": "This was the final project for Technical Drawing in my Interaction Design program. We were asked to pick an object to recreate using the tools within Adobe Illustrator. We essentially rebuilt the object using shapes and gradients in Illustrator.",
+    "year": "Sem 2, 2025",
+    "image": "css/images/funkofinal.PNG"
+  },
+  {
+    "name": "Spiderpunk Portrait",
+    "medium": "Digital Art (Krita)",
+    "category": "Digital Art",
+    "description": "This was a personal work of mine that I did shortly after watching Spiderman: Across the Spiderverse. I loved the design for Spiderpunk/Hobie and wanted to draw him digitally. This is one of the few works I can look back on without criticizing too hard. I'm proud of the colouring and overall accuracy to my vision.",
+    "year": "July 2023",
+    "image": "css/images/spiderpunk_coloured_line.png"
+  },
+  {
+    "name": "Glimpse of the Past",
+    "medium": "Digital Art (Krita)",
+    "category": "Digital Art",
+    "description": "This was a personal work I did after replaying Batman: Arkham Knight. I'd realized in one scene of the game that Jason (the Arkham Knight/Robin/Red Hood) had a moment where he felt he was Robin again. I wanted to illustrate what his perspective might've felt or looked like in that moment.",
+    "year": "2023",
+    "image": "css/images/glimpse.png"
+  },
+  {
+    "name": "Brand Poster Campaign",
+    "medium": "Adobe Photoshop",
+    "category": "Design",
+    "description": "This was part of a final project I did in 2D Visualization where we designed a ficitonal brand and created guidelines and poster campaigns for it. I spent a lot of time experimenting with Photoshop and (for a beginner) I think these posters came out okay.",
+    "year": "Sem 1, 2023",
+    "image": "css/images/postercampaign.png"
+  },
+  {
+    "name": "CLai Kitchen Logo",
+    "medium": "Digital Art (Krita)",
+    "category": "Design",
+    "description": "This is a logo I put together for my mom's business. She does food markets in the summer and my parents had asked me to create a logo for her. It was very roughly put together and could definitely be improved on, but this has been the face of her business since she started. Perhaps if this gets serious enough, we'll redsign her logo.",
+    "year": "Summer 2022",
+    "image": "css/images/CLaiKitchen.png"
+  },
+  {
+    "name": "Moonlight Meadow Logo",
+    "medium": "Adobe Illustrator",
+    "category": "Design",
+    "description": "This is the logo I designed as part of my final project in 2D Visualization. I remember creating the logo usage guide and having a decent amount of fun putting it together.",
+    "year": "Sem 1, 2023",
+    "image": "css/images/moonlightmeadowlogo.png"
+  },
+  {
+    "name": "Embers of Portugal",
+    "medium": "Adobe Illustrator",
+    "category": "Design",
+    "description": "This is the logo I designed as part of my Brand and Marketing Strategies course. We were asked to create concepts for a Portuguese Folklore Guild and this was my logo.",
+    "year": "Sem 2, 2025",
+    "image": "css/images/embersofportugal.png"
+  }
+]
