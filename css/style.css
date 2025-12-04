@@ -1,20 +1,26 @@
-@font-face{
+@font-face {
     font-family: "gotham";
     src: url('fonts/gotham/Gotham.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    }
-@font-face{
+}
+
+@font-face {
     font-family: "butler";
     src: url('fonts/butler/Butler.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-@font-face{
+
+@font-face {
     font-family: "batman";
     src: url('fonts/batman/BATMAN.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+}
+
+a {
+    color: rgb(22, 22, 32);
 }
 
 nav a {
@@ -25,58 +31,74 @@ nav a {
     line-height: 50px;
     text-decoration: none;
 }
+
 a:hover {
     color: rgb(93, 106, 150);
     text-decoration: underline;
 }
+
 .active {
-   text-decoration: underline;
+    text-decoration: underline;
 }
-nav i{
+
+i {
     font-size: 30px;
     color: rgb(22, 22, 32);
 }
-nav i:hover{
+
+i:hover {
     color: rgb(93, 106, 150);
 }
-body{
+
+body {
     background-image: url('images/gothiccity.jpg');
     background-size: cover;
 }
-.heading{
+
+.heading {
     background-color: rgb(22, 22, 32);
     padding: 20px;
     margin: 0;
 }
-.cards-container{
+
+.cards-container {
     opacity: 90%;
 }
-.row{
+
+.row {
     opacity: 90%;
     background-color: rgb(191, 181, 175);
     padding: 20px;
     margin: 0;
 }
-.col{
+
+.col {
     float: center;
     width: 40%;
-    height:max-content;
+    height: max-content;
     padding: 5px;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgb(221, 215, 211);
     padding: 10px;
     margin: 10px;
-    width:100%;
+    width: 100%;
 }
-.card{
+
+.card {
     background-color: rgb(206, 196, 189);
     padding: 10px;
     margin: 10px;
-    width:100%;
+    width: 100%;
 }
 
-.btn{
+.btn i {
+    color: rgb(219, 218, 221);
+    font-size: 20px;
+}
+
+.btn {
     background-color: rgb(112, 31, 31);
     color: rgb(219, 218, 221);
     font-family: "gotham";
@@ -85,44 +107,52 @@ body{
     border: none;
     border-radius: 5px;
 }
-.btn:active{
+
+.btn:active {
     background-color: rgb(134 51 51);
     color: rgb(219, 218, 221);
 }
-.btn:hover{
+
+.btn:hover {
     background-color: rgb(93, 106, 150);
     color: rgb(219, 218, 221);
 }
 
-text{
+text {
     padding: 20px;
 }
+
 #left img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
+
 h2 {
-    color:rgb(134 51 51);
+    color: rgb(134 51 51);
     font-family: "batman";
     font-size: 50px;
 }
-h3{
+
+h3 {
     font-family: "batman";
     font-size: 50px;
-    color:rgb(134 51 51);
+    color: rgb(134 51 51);
 }
-h4{
+
+h4 {
     font-family: "batman";
-    font-size:30px;
+    font-size: 30px;
 }
-h5{
+
+h5 {
     font-family: "butler";
     color: rgb(41, 37, 52);
     font-size: 30px;
 }
-p{
+
+p {
     font-family: "butler";
     font-size: 20px;
 }
