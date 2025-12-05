@@ -120,17 +120,16 @@ body {
 input{
     font-family: "butler";
     font-size: 20px;
-    color: rgb(29, 23, 58);
+    color: rgb(19, 20, 39);
     padding: 5px;
     margin-bottom: 20px;
-    border: 2px solid rgb(29, 23, 58);
+    border: 2px solid rgb(23, 24, 58);
     border-radius: 5px;
     background-color: rgb(244, 240, 255);
 }
 text {
     padding: 20px;
 }
-
 #left img {
     display: block;
     margin: 0 auto;
