@@ -12,8 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 		const img = document.createElement('img');
 		img.className = 'card-img-top';
-		img.style.height = '400px';
+		img.style.height = '100%';
 		img.style.objectFit = 'contain';
+		img.style.maxHeight = '400px'
 		img.src = item.image || item.img || 'https://picsum.photos/400/200';
 		img.alt = item.alt || item.title || '';
 		card.appendChild(img);
